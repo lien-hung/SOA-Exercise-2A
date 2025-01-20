@@ -19,6 +19,10 @@ GET {{TodoApi_HostAddress}}/todoitems/1
 
 ###
 
+GET {{TodoApi_HostAddress}}/todoitems/complete
+
+###
+
 PUT {{TodoApi_HostAddress}}/todoitems/1
 Content-Type: application/json
 
